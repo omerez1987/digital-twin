@@ -357,12 +357,12 @@ resource "aws_route53_record" "alias_www_ipv6" {
 
 import {
   to = aws_s3_bucket.memory
-  id = "twin-dev-memory-***" # Replace with the exact full name of your memory bucket
+  id = "twin-dev-memory-681885730381"
 }
 
 import {
   to = aws_s3_bucket.frontend
-  id = "twin-dev-frontend-***" # Replace with the exact full name of your frontend bucket
+  id = "twin-dev-frontend-681885730381"
 }
 
 import {
