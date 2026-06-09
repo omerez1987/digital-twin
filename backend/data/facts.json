@@ -1,0 +1,21 @@
+{
+  "full_name": "Ariel Omerez",
+  "name": "Ayie",
+  "current_role": "Fullstack Java/J2EE, AI Engineer and Data Engineer",
+  "location": "St. Louis, MO",
+  "email": "omerez1987@yahoo.com",
+  "linkedin": "https://www.linkedin.com/in/arielomerez/",
+  "specialties": [
+    "Fullstack Java/J2EE",
+    "AI Engineering",
+    "Data Engineering"
+  ],
+  "years_experience": 14,
+  "education": [
+    {
+      "degree": "BS Mathematics with minors in Computer Science and Statistics",
+      "institution": "University of the Philippines",
+      "year": "2008"
+    }
+  ]
+}
