@@ -354,3 +354,18 @@ resource "aws_route53_record" "alias_www_ipv6" {
     evaluate_target_health = false
   }
 }
+
+import {
+  to = aws_s3_bucket.memory
+  id = "twin-dev-memory-***" # Replace with the exact full name of your memory bucket
+}
+
+import {
+  to = aws_s3_bucket.frontend
+  id = "twin-dev-frontend-***" # Replace with the exact full name of your frontend bucket
+}
+
+import {
+  to = aws_iam_role.lambda_role
+  id = "twin-dev-lambda-role"
+}
