@@ -366,8 +366,3 @@ import {
   to = aws_s3_bucket.frontend
   id = "twin-dev-frontend-681885730381"
 }
-
-import {
-  to = aws_iam_role.lambda_role
-  id = "twin-dev-lambda-role"
-}
